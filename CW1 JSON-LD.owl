@@ -1,0 +1,3287 @@
+[ {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Accommodation_And_Food_Service_Activities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#appliedToGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Accommodation_And_Food_Service_Activities_(Governemnt_Schemes_-_Applied)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasResponseRate" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Accommodation_And_Food_Service_Activities_(Response_Rate)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Accommodation_And_Food_Service_Activities_(Sample_size)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasTradingStatus" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Accommodation_And_Food_Service_Activities_(Trading_Status)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#intendingGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Accommodation_And_Food_Service_Activities_(Governemnt_Schemes_-_Intending)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#receivedGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Accommodation_And_Food_Service_Activities_(Governemnt_Schemes_-_Received)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accommodation And Food Service Activities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Accommodation_And_Food_Service_Activities_(Governemnt_Schemes_-_Applied)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.422"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.206"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.782"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.871"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.806"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.249"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.027"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accommodation And Food Service Activities (Government Schemes - Applied)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Accommodation_And_Food_Service_Activities_(Governemnt_Schemes_-_Intending)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.137"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.122"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.18"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.404"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.235"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.061"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.398"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accommodation And Food Service Activities (Government Schemes - Intending)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Accommodation_And_Food_Service_Activities_(Governemnt_Schemes_-_Received)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.306"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.035"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.633"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.251"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.596"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.178"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.129"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accommodation And Food Service Activities (Government Schemes - Received)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Accommodation_And_Food_Service_Activities_(Response_Rate)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#ResponseRate" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.329"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.296"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.316"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accommodation And Food Service Activities (Response Rate)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Accommodation_And_Food_Service_Activities_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "975"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "659"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1634"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accommodation And Food Service Activities (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Accommodation_And_Food_Service_Activities_(Trading_Status)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.012"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.182"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.806"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Accommodation And Food Service Activities (Trading Status)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Administrative_And_Support_Service_Activities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#appliedToGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Administrative_And_Support_Service_Activities_(Governemnt_Schemes_-_Applied)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasResponseRate" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Administrative_And_Support_Service_Activities_(Response_Rate)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Administrative_And_Support_Service_Activities_(Sample_size)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasTradingStatus" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Administrative_And_Support_Service_Activities_(Trading_Status)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#intendingGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Administrative_And_Support_Service_Activities_(Governemnt_Schemes_-_Intending)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#receivedGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Administrative_And_Support_Service_Activities_(Governemnt_Schemes_-_Received)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Administrative And Support Service Activities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Administrative_And_Support_Service_Activities_(Governemnt_Schemes_-_Applied)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.205"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.123"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.201"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.757"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.637"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.218"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.139"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Administrative And Support Service Activities (Government Schemes - Applied)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Administrative_And_Support_Service_Activities_(Governemnt_Schemes_-_Intending)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.102"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.09"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.089"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.401"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.227"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.063"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.45"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Administrative And Support Service Activities (Government Schemes - Intending)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Administrative_And_Support_Service_Activities_(Governemnt_Schemes_-_Received)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.147"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.017"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.12"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.28"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.469"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.144"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.206"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Administrative And Support Service Activities (Government Schemes - Received)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Administrative_And_Support_Service_Activities_(Response_Rate)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#ResponseRate" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.352"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.337"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.345"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Administrative And Support Service Activities (Response Rate)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Administrative_And_Support_Service_Activities_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1287"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1072"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2359"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Administrative And Support Service Activities (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Administrative_And_Support_Service_Activities_(Trading_Status)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.00399999999999996"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.915"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.081"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Administrative And Support Service Activities (Trading Status)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#appliedToGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Applied)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasResponseRate" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Response_Rate)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Sample_size)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasTradingStatus" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Trading_Status)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#intendingGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Intending)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#receivedGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Received)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Applied)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.223"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.099"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.274"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.672"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.564"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.112"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountryEngland" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Applied_-_England)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountryNorthernIreland" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Applied_-_Northern_Ireland)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountryScotland" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Applied_-_Scotland)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountryWales" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Applied_-_Wales)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasWorkforceGT250" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Applied_-_LT250)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasWorkforceLT250" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Applied_-_GT250)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.207"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Government Schemes - Applied)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Applied_-_England)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.224"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.097"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.274"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.673"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.573"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.109"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.205"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Government Schemes - Applied - England)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Applied_-_GT250)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.222"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.079"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.279"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.647"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.571"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.073123"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.223"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Government Schemes - Applied - 250+)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Applied_-_LT250)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.224"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.112"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.272"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.687"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.56"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.135"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.198"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Government Schemes - Applied - Lower Than 250)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Applied_-_Northern_Ireland)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.13"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.065"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.304"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.652"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.402"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.109"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.239"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Government Schemes - Applied - Northern Ireland)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Applied_-_Scotland)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.235"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.098"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.29"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.717"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.63"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.075"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.165"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Government Schemes - Applied - Scotland)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Applied_-_Wales)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.255"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.127"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.387"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.738"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.651"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.137"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.134"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Government Schemes - Applied - Wales)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Intending)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.088"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.08"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.091"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.368"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.19"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.039"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasWorkforceGT250" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Intending_-_LT250)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasWorkforceLT250" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Intending_-_GT250)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.482"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Government Schemes - Intending)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Intending_-_GT250)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.078"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.072"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.094"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.37"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.169"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.027"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.486"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Government Schemes - Intending - 250+)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Intending_-_LT250)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.094"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.085"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.089"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.367"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.202"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.046"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.48"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Government Schemes - Intending - Lower Than 250)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Received)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.168"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.018"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.191"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.222"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.427"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.07"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasWorkforceGT250" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Received_-_LT250)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasWorkforceLT250" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Received_-_GT250)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.189"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Government Schemes - Received)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Received_-_GT250)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.168"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.011"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.2"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.224"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.461"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.046"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.163"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Government Schemes - Received - 250+)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Governemnt_Schemes_-_Received_-_LT250)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.168"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.023"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.186"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.221"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.407"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.085"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.205"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Government Schemes - Received - Lower Than 250)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Response_Rate)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#ResponseRate" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.365"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.321"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.347"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Response Rate)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "10442"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "7181"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "17623"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Trading_Status)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.00499999999999998"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.767"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountryEngland" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Trading_Status_-_England)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountryNorthernIreland" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Trading_Status_-_Northern_Ireland)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountryScotland" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Trading_Status_-_Scotland)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountryWales" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Trading_Status_-_Wales)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasWorkforceGT250" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Trading_Status_-_Workforce_LT250)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasWorkforceLT250" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Trading_Status_-_Workforce_GT250)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.228"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Trading Status)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Trading_Status_-_England)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.00399999999999998"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.778"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.218"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Trading Status - England)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Trading_Status_-_Northern_Ireland)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.0"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.728"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.272"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Trading Status - Northern Ireland)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Trading_Status_-_Scotland)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.00699999999999998"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.776"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.217"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Trading Status - Scotland)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Trading_Status_-_Wales)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.011"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.762"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.227"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Trading Status - Wales)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Trading_Status_-_Workforce_GT250)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.00499999999999995"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.798"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.197"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Trading Status - Workforce 250+)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries_(Trading_Status_-_Workforce_LT250)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.005"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.748"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.247"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "All Industries (Trading Status - Workforce Lower Than 250)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Arts_Entertainment_And_Recreation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#appliedToGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Arts_Entertainment_And_Recreation_(Governemnt_Schemes_-_Applied)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasResponseRate" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Arts_Entertainment_And_Recreation_(Response_Rate)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Arts_Entertainment_And_Recreation_(Sample_size)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasTradingStatus" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Arts_Entertainment_And_Recreation_(Trading_Status)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#intendingGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Arts_Entertainment_And_Recreation_(Governemnt_Schemes_-_Intending)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#receivedGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Arts_Entertainment_And_Recreation_(Governemnt_Schemes_-_Received)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arts, Entertainment And Recreation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Arts_Entertainment_And_Recreation_(Governemnt_Schemes_-_Applied)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.331"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.183"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.572"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.763"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.612"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.18"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.12006"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arts, Entertainment And Recreation (Government Schemes - Applied)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Arts_Entertainment_And_Recreation_(Governemnt_Schemes_-_Intending)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.104"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.108"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.122"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.41"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.212"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.058"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.392"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arts, Entertainment And Recreation (Government Schemes - Intending)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Arts_Entertainment_And_Recreation_(Governemnt_Schemes_-_Received)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.255"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.043"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.45"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.219"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.435"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.108"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.176"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arts, Entertainment And Recreation (Government Schemes - Received)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Arts_Entertainment_And_Recreation_(Response_Rate)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#ResponseRate" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.434"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.323"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.387"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arts, Entertainment And Recreation (Response Rate)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Arts_Entertainment_And_Recreation_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "415"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "303"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "718"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arts, Entertainment And Recreation (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Arts_Entertainment_And_Recreation_(Trading_Status)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.0"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.205"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.795"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Arts, Entertainment And Recreation (Trading Status)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#BICS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Study" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasIndustry" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Accommodation_And_Food_Service_Activities"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Administrative_And_Support_Service_Activities"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#All_Industries"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Arts_Entertainment_And_Recreation"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Construction"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Education"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Electricity_Gas_Steam_And_Air_Conditioning_Supply"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Financial_And_Insurance_Activities"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Human_Health_And_Social_Work_Activities"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Information_And_Communication"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Manufacturing"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Mining_And_Quarrying"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Other_Service_Activities"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Professional_Scientific_And_Technical_Activities"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Real_Estate_Activities"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Transportation_And_Storage"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Water_Supply_Sewerage_Waste_Management_And_Remediation_Activities"
+  }, {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Wholesale_And_Retail_Trade_Repair_Of_Motor_Vehicles_And_Motorcycles"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "BICS Study"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Construction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#appliedToGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Construction_(Governemnt_Schemes_-_Applied)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasResponseRate" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Construction_(Response_Rate)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Construction_(Sample_size)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasTradingStatus" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Construction_(Trading_Status)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#intendingGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Construction_(Governemnt_Schemes_-_Intending)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#receivedGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Construction_(Governemnt_Schemes_-_Received)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Construction"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Construction_(Governemnt_Schemes_-_Applied)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.287"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.096"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.135"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.809"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.599"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.06"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.117"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Construction (Government Schemes - Applied)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Construction_(Governemnt_Schemes_-_Intending)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.096"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.11"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.032"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.429"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.174"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.05"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.422"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Construction (Government Schemes - Intending)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Construction_(Governemnt_Schemes_-_Received)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.234"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.018"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.057"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.291"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.443"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.021"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.27"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Construction (Government Schemes - Received)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Construction_(Response_Rate)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#ResponseRate" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.288"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.244"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.275"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Construction (Response Rate)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Construction_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "722"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "312"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1034"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Construction (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Construction_(Trading_Status)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.00700000000000001"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.732"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.261"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Construction (Trading Status)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Education",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#appliedToGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Education_(Governemnt_Schemes_-_Applied)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasResponseRate" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Education_(Response_Rate)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Education_(Sample_size)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasTradingStatus" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Education_(Trading_Status)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#intendingGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Education_(Governemnt_Schemes_-_Intending)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#receivedGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Education_(Governemnt_Schemes_-_Received)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Education"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Education_(Governemnt_Schemes_-_Applied)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.07"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.028"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.085"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.405"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.263"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.022"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.484"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Education (Government Schemes - Applied)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Education_(Governemnt_Schemes_-_Intending)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.022"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.066"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.098"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.459"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.174"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.0"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.421"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Education (Government Schemes - Intending)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Education_(Governemnt_Schemes_-_Received)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.057"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.0"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.038"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.098"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.184"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.0"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.228"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Education (Government Schemes - Received)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Education_(Response_Rate)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#ResponseRate" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.419"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.418"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.418"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Education (Response Rate)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Education_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "303"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "457"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "760"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Education (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Education_(Trading_Status)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.00600000000000001"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.868"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.126"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Education (Trading Status)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Electricity_Gas_Steam_And_Air_Conditioning_Supply",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Electricity, Gas, Steam And Air Conditioning Supply"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Financial_And_Insurance_Activities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Financial And Insurance Activities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Government Schemes"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#governmentScheme"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Human_Health_And_Social_Work_Activities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#appliedToGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Human_Health_And_Social_Work_Activities_(Governemnt_Schemes_-_Applied)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasResponseRate" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Human_Health_And_Social_Work_Activities_(Response_Rate)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Human_Health_And_Social_Work_Activities_(Sample_size)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasTradingStatus" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Human_Health_And_Social_Work_Activities_(Trading_Status)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#intendingGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Human_Health_And_Social_Work_Activities_(Governemnt_Schemes_-_Intending)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#receivedGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Human_Health_And_Social_Work_Activities_(Governemnt_Schemes_-_Received)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Human Health And Social Work Activities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Human_Health_And_Social_Work_Activities_(Governemnt_Schemes_-_Applied)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.063"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.028"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.134"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.345"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.162"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.106"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.556"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Human Health And Social Work Activities (Government Schemes - Applied)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Human_Health_And_Social_Work_Activities_(Governemnt_Schemes_-_Intending)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.056"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.014"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.042"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.31"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.099"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.035"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.585"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Human Health And Social Work Activities (Government Schemes - Intending)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Human_Health_And_Social_Work_Activities_(Governemnt_Schemes_-_Received)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.042"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.0"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.092"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.085"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.155"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.07"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.141"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Human Health And Social Work Activities (Government Schemes - Received)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Human_Health_And_Social_Work_Activities_(Response_Rate)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#ResponseRate" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.586"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.396"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.49"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Human Health And Social Work Activities (Response Rate)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Human_Health_And_Social_Work_Activities_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "145"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "149"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "294"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Human Health And Social Work Activities (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Human_Health_And_Social_Work_Activities_(Trading_Status)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.0130000000000001"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.938"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.049"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Human Health And Social Work Activities (Trading Status)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Industry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Industry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Information_And_Communication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#appliedToGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Information_And_Communication_(Governemnt_Schemes_-_Applied)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasResponseRate" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Information_And_Communication_(Response_Rate)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Information_And_Communication_(Sample_size)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasTradingStatus" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Information_And_Communication_(Trading_Status)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#intendingGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Information_And_Communication_(Governemnt_Schemes_-_Intending)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#receivedGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Information_And_Communication_(Governemnt_Schemes_-_Received)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Information And Communication"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Information_And_Communication_(Governemnt_Schemes_-_Applied)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.137"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.038"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.082"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.401"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.474"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.036"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.373"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Information And Communication (Government Schemes - Applied)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Information_And_Communication_(Governemnt_Schemes_-_Intending)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.067"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.05"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.07"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.26"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.163"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.029"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.587"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Information And Communication (Government Schemes - Intending)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Information_And_Communication_(Governemnt_Schemes_-_Received)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.106"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.01"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.031"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.154"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.397"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.017"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.127"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Information And Communication (Government Schemes - Received)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Information_And_Communication_(Response_Rate)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#ResponseRate" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.374"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.287"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.344"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Information And Communication (Response Rate)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Information_And_Communication_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "794"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "422"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1216"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Information And Communication (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Information_And_Communication_(Trading_Status)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.00487680000000004"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.95"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.0451232"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Information And Communication (Trading Status)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Manufacturing",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#appliedToGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Manufacturing_(Governemnt_Schemes_-_Applied)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasResponseRate" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Manufacturing_(Response_Rate)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Manufacturing_(Sample_size)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasTradingStatus" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Manufacturing_(Trading_Status)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#intendingGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Manufacturing_(Governemnt_Schemes_-_Intending)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#receivedGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Manufacturing_(Governemnt_Schemes_-_Received)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Manufacturing"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Manufacturing_(Governemnt_Schemes_-_Applied)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.193"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.086"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.14"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.635"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.443"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.048"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.26"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Manufacturing (Government Schemes - Applied)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Manufacturing_(Governemnt_Schemes_-_Intending)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.092"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.066"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.081"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.383"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.167"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.028"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.481"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Manufacturing (Government Schemes - Intending)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Manufacturing_(Governemnt_Schemes_-_Received)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.147"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.013"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.079"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.199"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.33"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.026"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.237"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Manufacturing (Government Schemes - Received)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Manufacturing_(Response_Rate)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#ResponseRate" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.363"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.328"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.348"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Manufacturing (Response Rate)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Manufacturing_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1785"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1370"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "3155"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Manufacturing (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Manufacturing_(Trading_Status)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.00399999999999998"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.79"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.206"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Manufacturing (Trading Status)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Mining_And_Quarrying",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Mining_And_Quarrying_(Sample_size)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mining And Quarrying"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Mining_And_Quarrying_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "15"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "13"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "28"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Mining And Quarrying (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Other_Service_Activities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Other_Service_Activities_(Sample_size)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Other Service Activities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Other_Service_Activities_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "108"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "29"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "137"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Other Service Activities (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Professional_Scientific_And_Technical_Activities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#appliedToGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Professional_Scientific_And_Technical_Activities_(Governemnt_Schemes_-_Applied)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasResponseRate" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Professional_Scientific_And_Technical_Activities_(Response_Rate)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Professional_Scientific_And_Technical_Activities_(Sample_size)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasTradingStatus" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Professional_Scientific_And_Technical_Activities_(Trading_Status)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#intendingGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Professional_Scientific_And_Technical_Activities_(Governemnt_Schemes_-_Intending)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#receivedGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Professional_Scientific_And_Technical_Activities_(Governemnt_Schemes_-_Received)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Professional, Scientific And Technical Activities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Professional_Scientific_And_Technical_Activities_(Governemnt_Schemes_-_Applied)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.186"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.081"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.126"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.622"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.662"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.049"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.207"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Professional, Scientific And Technical Activities (Government Schemes - Applied)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Professional_Scientific_And_Technical_Activities_(Governemnt_Schemes_-_Intending)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.083"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.074"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.073"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.35"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.228"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.023"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.503"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Professional, Scientific And Technical Activities (Government Schemes - Intending)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Professional_Scientific_And_Technical_Activities_(Governemnt_Schemes_-_Received)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.146"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.023"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.078"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.216"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.518"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.022"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.176"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Professional, Scientific And Technical Activities (Government Schemes - Received)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Professional_Scientific_And_Technical_Activities_(Response_Rate)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#ResponseRate" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.359"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.368"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.362"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Professional, Scientific And Technical Activities (Response Rate)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Professional_Scientific_And_Technical_Activities_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1303"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "720"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2023"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Professional, Scientific And Technical Activities (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Professional_Scientific_And_Technical_Activities_(Trading_Status)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.00300000000000003"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.967"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.03"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Professional, Scientific And Technical Activities (Trading Status)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Real_Estate_Activities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Real_Estate_Activities_(Sample_size)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Real Estate Activities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Real_Estate_Activities_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "112"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "88"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "200"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Real Estate Activities (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#ResponseRate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Response Rate"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Sample Size"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Study",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Study"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Trading Status"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Transportation_And_Storage",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#appliedToGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Transportation_And_Storage_(Governemnt_Schemes_-_Applied)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasResponseRate" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Transportation_And_Storage_(Response_Rate)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Transportation_And_Storage_(Sample_size)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasTradingStatus" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Transportation_And_Storage_(Trading_Status)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#intendingGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Transportation_And_Storage_(Governemnt_Schemes_-_Intending)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#receivedGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Transportation_And_Storage_(Governemnt_Schemes_-_Received)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transportation And Storage"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Transportation_And_Storage_(Governemnt_Schemes_-_Applied)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.248"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.092"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.241"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.766"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.553"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.064"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.167"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transportation And Storage (Government Schemes - Applied)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Transportation_And_Storage_(Governemnt_Schemes_-_Intending)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.078"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.074"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.096"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.355"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.199"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.021"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.489"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transportation And Storage (Government Schemes - Intending)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Transportation_And_Storage_(Governemnt_Schemes_-_Received)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.188"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.025"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.145"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.287"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.44"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.025"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.184"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transportation And Storage (Government Schemes - Received)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Transportation_And_Storage_(Response_Rate)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#ResponseRate" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.366"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.266"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.327"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transportation And Storage (Response Rate)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Transportation_And_Storage_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "528"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "335"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "863"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transportation And Storage (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Transportation_And_Storage_(Trading_Status)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.0"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.915"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.085"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Transportation And Storage (Trading Status)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Water_Supply_Sewerage_Waste_Management_And_Remediation_Activities",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#appliedToGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Water_Supply_Sewerage_Waste_Management_And_Remediation_Activities_(Governemnt_Schemes_-_Applied)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasResponseRate" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Water_Supply_Sewerage_Waste_Management_And_Remediation_Activities_(Response_Rate)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Water_Supply_Sewerage_Waste_Management_And_Remediation_Activities_(Sample_size)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasTradingStatus" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Water_Supply_Sewerage_Waste_Management_And_Remediation_Activities_(Trading_Status)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#intendingGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Water_Supply_Sewerage_Waste_Management_And_Remediation_Activities_(Governemnt_Schemes_-_Intending)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#receivedGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Water_Supply_Sewerage_Waste_Management_And_Remediation_Activities_(Governemnt_Schemes_-_Received)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Water Supply, Sewerage, Waste Management And Remediation Activities"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Water_Supply_Sewerage_Waste_Management_And_Remediation_Activities_(Governemnt_Schemes_-_Applied)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.214"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.1"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.157"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.686"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.571"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.057"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.214"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Water Supply, Sewerage, Waste Management And Remediation Activities (Government Schemes - Applied)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Water_Supply_Sewerage_Waste_Management_And_Remediation_Activities_(Governemnt_Schemes_-_Intending)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.143"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.071"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.071"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.386"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.229"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.029"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.457"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Water Supply, Sewerage, Waste Management And Remediation Activities (Government Schemes - Intending)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Water_Supply_Sewerage_Waste_Management_And_Remediation_Activities_(Governemnt_Schemes_-_Received)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.157"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.043"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.043"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.286"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.371"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.014"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.243"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Water Supply, Sewerage, Waste Management And Remediation Activities (Government Schemes - Received)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Water_Supply_Sewerage_Waste_Management_And_Remediation_Activities_(Response_Rate)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#ResponseRate" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.385"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.282"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.348"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Water Supply, Sewerage, Waste Management And Remediation Activities (Response Rate)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Water_Supply_Sewerage_Waste_Management_And_Remediation_Activities_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "130"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "71"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "201"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Water Supply, Sewerage, Waste Management And Remediation Activities (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Water_Supply_Sewerage_Waste_Management_And_Remediation_Activities_(Trading_Status)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.0"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.9"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.1"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Water Supply, Sewerage, Waste Management And Remediation Activities (Trading Status)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Wholesale_And_Retail_Trade_Repair_Of_Motor_Vehicles_And_Motorcycles",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#Industry" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#appliedToGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Wholesale_And_Retail_Trade_Repair_Of_Motor_Vehicles_And_Motorcycles_(Governemnt_Schemes_-_Applied)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasResponseRate" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Wholesale_And_Retail_Trade_Repair_Of_Motor_Vehicles_And_Motorcycles_(Response_Rate)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Wholesale_And_Retail_Trade_Repair_Of_Motor_Vehicles_And_Motorcycles_(Sample_size)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#hasTradingStatus" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Wholesale_And_Retail_Trade_Repair_Of_Motor_Vehicles_And_Motorcycles_(Trading_Status)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#intendingGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Wholesale_And_Retail_Trade_Repair_Of_Motor_Vehicles_And_Motorcycles_(Governemnt_Schemes_-_Intending)"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#receivedGovernmentSchemes" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Wholesale_And_Retail_Trade_Repair_Of_Motor_Vehicles_And_Motorcycles_(Governemnt_Schemes_-_Received)"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Wholesale_And_Retail_Trade_Repair_Of_Motor_Vehicles_And_Motorcycles_(Governemnt_Schemes_-_Applied)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.25"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.09"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.446"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.726"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.601"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.133"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.155"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles (Government Schemes - Applied)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Wholesale_And_Retail_Trade_Repair_Of_Motor_Vehicles_And_Motorcycles_(Governemnt_Schemes_-_Intending)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.076"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.083"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.093"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.321"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.158"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.042"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.538"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles (Government Schemes - Intending)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Wholesale_And_Retail_Trade_Repair_Of_Motor_Vehicles_And_Motorcycles_(Governemnt_Schemes_-_Received)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#GovernmentSchemes" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#HMRCTimeToPayScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.183"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.015"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.334"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.239"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.469"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.091"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#none" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.16"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles (Government Schemes - Received)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Wholesale_And_Retail_Trade_Repair_Of_Motor_Vehicles_And_Motorcycles_(Response_Rate)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#ResponseRate" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.377"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.292"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.343"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles (Response Rate)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Wholesale_And_Retail_Trade_Repair_Of_Motor_Vehicles_And_Motorcycles_(Sample_size)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#SampleSize" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1819"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "1180"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "2999"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles (Sample size)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#Wholesale_And_Retail_Trade_Repair_Of_Motor_Vehicles_And_Motorcycles_(Trading_Status)",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/vlad/ontologies/cw1#TradingStatus" ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.005"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.752"
+  } ],
+  "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#double",
+    "@value" : "0.243"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@language" : "en",
+    "@value" : "Wholesale And Retail Trade; Repair Of Motor Vehicles And Motorcycles (Trading Status)"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#accreditedFinanceAgreement",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#label" : [ {
+    "@value" : "Accredited finance agreements"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#governmentScheme"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#appliedToGovernmentSchemes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#businessRatesHoliday",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#governmentScheme"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#ceasedTrading",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#tradingStatus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#continueTrading",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#tradingStatus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#coronavirusJobRetentionScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#governmentScheme"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#deferringVATPayment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#governmentScheme"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#governmentGrantLoanScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#governmentScheme"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#governmentScheme",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountryEngland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountryNorthernIreland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountryScotland",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountryWales",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasCountry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasIndustry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasResponseRate",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasSampleSize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasTradingStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasWorkforce",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasWorkforceGT250",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasWorkforce"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasWorkforceLT250",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#hasWorkforce"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#intendingGovernmentSchemes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#none",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#governmentScheme"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#receivedGovernmentSchemes",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#suspendedTrading",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#tradingStatus"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#tradingStatus",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSize",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeGT250",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSize"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeLT250",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSize"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSizeTotal",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/vlad/ontologies/cw1#workforceSize"
+  } ]
+} ]
